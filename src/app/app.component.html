@@ -1,2 +1,8 @@
 <p appBasic>Test</p>
 <p appBetterHighlight defaultColor="black" highlightColor="orange">Wazzup</p>
+
+<div [ngSwitch]="value">
+    <p *ngSwitchCase="5">The value is 5</p>
+    <p *ngSwitchCase="10">The value is 10</p>
+    <p *ngSwitchCase="15">The value is 15</p>
+</div>
